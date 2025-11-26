@@ -86,6 +86,7 @@ def root():
 
 @app.get("/activities")
 def get_activities():
+    # Return activities with participants
     return activities
 
 
